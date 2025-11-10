@@ -104,7 +104,7 @@ function Dashboard() {
       <Box>
         <Box sx={{ mb: 4 }}>
           <Typography variant="h4" sx={{ fontWeight: 600, mb: 1 }}>
-            Welcome back, {user?.first_name}! 👋
+            Welcome back, {user?.first_name}!
           </Typography>
           <Typography variant="body1" color="text.secondary">
             {isStudent && "Here's an overview of your exams and performance"}
